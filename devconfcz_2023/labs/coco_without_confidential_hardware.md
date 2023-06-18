@@ -151,7 +151,7 @@ $ chmod 600 ccv0-ssh
 3. Connect to the pod's container via SSH
 
 ```shell
-$ ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ccv0-ssh root@<CLUSTER_IP>
+$ ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ccv0-ssh root@$CLUSTER_IP
 ```
 
 4. (In the container) Check the kernel version
